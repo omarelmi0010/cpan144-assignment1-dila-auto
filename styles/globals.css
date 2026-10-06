@@ -24,3 +24,126 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ===== Custom styles for Dila Auto Repair & Collision ===== */
+
+/* Page: light background, dark text */
+body {
+  background: #f4f6f8;
+  color: #1f2933;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Navigation bar: dark blue bar with the garage name and links */
+nav {
+  background: #1f2a44;
+  color: #ffffff;
+  padding: 16px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+nav h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffb703;
+  text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+  color: #1f2a44;
+}
+
+/* Buttons: red buttons that darken on hover */
+button {
+  background: #d62828;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a61e1e;
+}
+
+/* Page container: centers the content and adds space around it */
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* Headings: the reset removed the default sizes, so they are set here */
+h1 {
+  font-size: 2rem;
+  margin: 0 0 16px 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin: 0 0 8px 0;
+}
+
+/* Form: labels and text boxes */
+label {
+  display: inline-block;
+  font-weight: bold;
+  margin: 8px 0 4px 0;
+}
+
+input {
+  background: #ffffff;
+  color: #1f2933;
+  border: 1px solid #9aa5b1;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 4px 8px 8px 0;
+  font-size: 1rem;
+}
+
+/* Card: a white box with a red edge (used by ServiceCard in the next step) */
+.card {
+  background: #ffffff;
+  border: 1px solid #d9e0e6;
+  border-left: 6px solid #d62828;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card p {
+  margin: 0 0 12px 0;
+}
+
+/* Describe the problem box: wider and taller than the other inputs */
+#issue {
+  width: 420px;
+  max-width: 100%;
+  padding: 14px;
+  font-size: 1.1rem;
+}
